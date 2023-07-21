@@ -33,5 +33,23 @@ namespace OrderTracker.Tests
             Assert.AreEqual(title, resultTitle);
             Assert.AreEqual(description, resultDescription);
         }
+
+        [TestMethod]
+        public void SetTitleAndDescription_UpdateTitleAndDescription_String()
+        {
+            string title = "Test Order Title";
+            string description = "Test Order Description";
+            int price = 1;
+            string date = "Test Order Date";
+            Order newOrder =  new Order(title, description, price, date);
+            string updatedTitle = "New Test Order Title";
+            string updatedDescription = "New Test Order Desciption";
+            newOrder.Title = updatedTitle;
+            newOrder.Description = updatedDescription;
+            string resultTitle = newOrder.Title;
+            string resultDescription = newOrder.Description;
+            Assert.AreEqual(updatedTitle, resultTitle);
+            Assert.AreEqual(updatedDescription, resultDescription);
+        }
     }
 }
