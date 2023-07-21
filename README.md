@@ -2,7 +2,7 @@
 
 #### _Application to "insert generic description here"_
 
-#### By **YOUR NAME HERE**
+#### By **Sage Paden**
 
 ## Technologies Used
 
@@ -15,7 +15,7 @@
 
 ## Description
 
-_This application uses MVC structure, RESTFul routing convention, and HTTP methods to track user inputted information blah blah blah blah you better change this_
+_This application uses MVC structure, RESTFul routing convention, and HTTP methods to track user inputted information in the form of a bakery web app_
 
 ## Setup/Installation Requirements
 
@@ -31,13 +31,13 @@ _This application uses MVC structure, RESTFul routing convention, and HTTP metho
 
 ## Known Bugs
 
-* _No known bugs as of 00/00/23_
+* _No known bugs as of 07/21/23_
 
 ## License
 
 MIT License
 
-Copyright (c) [2023] [Your Name Here]
+Copyright (c) [2023] [Sage Paden]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -57,4 +57,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-_If you run into any issues or have questions, ideas or concerns, please reach out to me via email: YOUR EMAIL HERE.  Contributions to the code are highly encouraged._
+_If you run into any issues or have questions, ideas or concerns, please reach out to me via email: sagepaden@gmail.com.  Contributions to the code are highly encouraged._

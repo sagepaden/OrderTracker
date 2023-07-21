@@ -1,11 +1,11 @@
-using System.Collections.Generic;
-using System;
 using Microsoft.AspNetCore.Mvc;
 using OrderTracker.Models;
+using System.Collections.Generic;
 
 namespace OrderTracker.Controllers
 {
-    public class OrderTracker : Controller
+    public class OrderController : Controller
     {
+
     }
 }
