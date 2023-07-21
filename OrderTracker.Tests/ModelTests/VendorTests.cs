@@ -23,8 +23,8 @@ namespace OrderTracker.Tests
         [TestMethod]
         public void GetVendorNameAndDescription_ReturnsVendorNameAndDescription_String()
         {
-            string vendorName = "Test Vendor";
-            string vendorDescription = "Test Description";
+            string vendorName = "Test Vendor Name";
+            string vendorDescription = "Test Vendor Description";
             Vendor newVendor = new Vendor(vendorName, vendorDescription);
             string resultVendorName = newVendor.VendorName;
             string resultVendorDescription = newVendor.VendorDescription;
@@ -54,6 +54,19 @@ namespace OrderTracker.Tests
             List<Vendor> newList = new List<Vendor> { newVendor1, newVendor2 };
             List<Vendor> result = Vendor.GetAll();
             CollectionAssert.AreEqual(newList, result);
+        }
+
+        [TestMethod]
+        public void Find_ReturnsCorrectVendor_Vendor()
+        {
+            string vendorName1 = "Test Vendor Name 1";
+            string vendorName2 = "Test Vendor Name 2";
+            string vendorDescription1 = "Test Vendor Description 1";
+            string vendorDescription2 = "Test Vendor Description 2";
+            Vendor newVendor1 = new Vendor(vendorName1, vendorDescription1);
+            Vendor newVendor2 = new Vendor(vendorName2, vendorDescription2);
+            Vendor result = Vendor.Find(2);
+            Assert.AreEqual(newVendor2, result);
         }
     }
 }
