@@ -15,6 +15,7 @@ namespace OrderTracker
 
       // app.UseDeveloperExceptionPage();
       app.UseHttpsRedirection();
+      app.UseStaticFiles();
 
       app.UseRouting();
 
