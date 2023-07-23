@@ -1,6 +1,6 @@
 # _OrderTracker.Solution_
 
-#### _Application to "insert generic description here"_
+#### _Application to demonstrate my ability using MVC structure and RESTFul routing_
 
 #### By **Sage Paden**
 
@@ -15,7 +15,7 @@
 
 ## Description
 
-_This application uses MVC structure, RESTFul routing convention, and HTTP methods to track user inputted information in the form of a bakery web app_
+_This application uses MVC structure, RESTFul routing convention, and HTTP methods to track user inputted information in the form of a bakery web app meant to make the owners needed data more organized and streamlined_
 
 ## Setup/Installation Requirements
 
